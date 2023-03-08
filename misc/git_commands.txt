@@ -1,0 +1,13 @@
+# create new repo
+
+
+# add file to staging
+
+
+# commit staged file
+
+
+# push commit to remote
+
+
+# pull changes from remote
