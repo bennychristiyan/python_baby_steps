@@ -1,13 +1,18 @@
 # create new repo
-
+git init
 
 # add file to staging
-
+git add <filename>
+git add .
 
 # commit staged file
-
+git commit -m "<commit_message>"
 
 # push commit to remote
 
 
 # pull changes from remote
+
+# checking commit history
+git log
+enter q to exit
