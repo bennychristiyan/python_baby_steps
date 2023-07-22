@@ -21,6 +21,7 @@ print(type(0.3)) # float
 
 # output
 """
+
 5
 1
 1.25

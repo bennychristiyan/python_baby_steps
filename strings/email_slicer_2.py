@@ -1,17 +1,27 @@
-Python 3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> word = "the word is nice today"
->>> word[-1]
-'y'
->>> word[-2]
-'a'
->>> word[-14]
-' '
->>> word.index("word")
+word = "the weather is so nice today"
+
+# printing a value from a string using reverse count index number
+print(word[-1])
+print(word[-2])
+print(word[-14])
+
+# printing index number of a value from a string
+print(word.index("weather"))
+print(word.index("today"))
+
+# printing a value from a string using intervals using values from the string
+print(word[word.index("weather"):word.index("today")])
+print(word[word.index("weather"):word.index("o")])
+
+# output
+"""
+
+y
+a
+
 4
->>> word.index("today")
-17
->>> word[word.index("word"):word.index("today")]
-'word is nice '
->>> word[word.index("word"):word.index("e")]
-''
+23
+weather is so nice
+weather is s
+
+"""
